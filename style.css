@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #2980b9;
+}
+#upgrade-info {
+    color: #888;
+    margin-top: 10px;
+}
